@@ -4,7 +4,7 @@ Ever tried editing code with a friend over a call, sharing your screen, saying "
 
 ColabEdit lets multiple people edit the same document simultaneously — in real time, from any browser. No accounts. No setup. Just open the link and start typing.
 
-![Demo](assets/demo.mp4)
+(![Demo](assets/V1_sync_.mp4)
 
 ---
 
