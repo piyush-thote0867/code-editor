@@ -1,6 +1,6 @@
 import { EditorState, StateField, StateEffect, RangeSetBuilder } from '@codemirror/state';
 import { EditorView, basicSetup } from 'codemirror';
-import { javascript } from '@codemirror/lang-javascript';
+//import { cpp } from '@codemirror/lang-javascript';
 import { gutter, GutterMarker } from '@codemirror/view';
 
 const socket = io();
@@ -32,7 +32,7 @@ const view = new EditorView({
     doc: '',
     extensions: [
       basicSetup,
-      javascript(),
+     
       conflictField,
       gutter({
         class: 'conflict-gutter',
